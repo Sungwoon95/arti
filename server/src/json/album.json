@@ -1,0 +1,67 @@
+[
+    {
+        "artistname": "newjeans",
+        "album": [
+            {
+                "albumtitle": "NewJeans 1st EP 'New Jeans'",
+                "imgurl": "newjeans/new.jpg",
+                "song": ["Attention", "Hype boy", "Cookie", "Hurt"]
+            }, {
+                "albumtitle": "NewJeans 'OMG'",
+                "imgurl": "newjeans/omg.jpg",
+                "song": ["OMG", "Ditto"]
+            }, {
+                "albumtitle": "Zero",
+                "imgurl": "newjeans/zero.jpg",
+                "song": ["Zero"]
+            }, {
+                "albumtitle": "NewJeans 'Super Shy'",
+                "imgurl": "newjeans/shy.jpg",
+                "song": ["New Jeans", "Super Shy"]
+            }
+        ]
+    }, {
+        "artistname": "yoasobi",
+        "album": [
+            {
+                "albumtitle": "NewJeans 1st EP 'New Jeans'",
+                "imgurl": "/yoasobi/1.jpg",
+                "song": ["Attention", "Hype boy", "Cookie", "Hurt"]
+            }, {
+                "albumtitle": "NewJeans 'OMG'",
+                "imgurl": "/yoasobi/2.jpg",
+                "song": ["OMG", "Ditto"]
+            }, {
+                "albumtitle": "Zero",
+                "imgurl": "/yoasobi/idol.jpg",
+                "song": ["Zero"]
+            }, {
+                "albumtitle": "NewJeans 'Super Shy'",
+                "imgurl": "",
+                "song": ["New Jeans", "Super Shy"]
+            }
+        ]
+    }, {
+        "artistname": "edsheeran",
+        "album": [
+            {
+                "albumtitle": "NewJeans 1st EP 'New Jeans'",
+                "imgurl": "",
+                "song": ["Attention", "Hype boy", "Cookie", "Hurt"]
+            }, {
+                "albumtitle": "NewJeans 'OMG'",
+                "imgurl": "",
+                "song": ["OMG", "Ditto"]
+            }, {
+                "albumtitle": "Zero",
+                "imgurl": "",
+                "song": ["Zero"]
+            }, {
+                "albumtitle": "NewJeans 'Super Shy'",
+                "imgurl": "",
+                "song": ["New Jeans", "Super Shy"]
+            }
+        ]
+    }
+
+]
