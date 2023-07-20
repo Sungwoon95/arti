@@ -1,14 +1,17 @@
-[
+[{
+  "category": "artist",
+  "category_kor": "아티스트"
+},
   {
-    "category": "kpop",
+    "category": "kr",
     "category_kor": "한국 노래"
   },
   {
-    "category": "jpop",
+    "category": "jp",
     "category_kor": "일본 노래"
   },
   {
-    "category": "pop",
-    "category_kor": "pop"
+    "category": "en",
+    "category_kor": "팝"
   }
 ]
