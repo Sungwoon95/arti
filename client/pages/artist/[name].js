@@ -37,11 +37,13 @@ const ArtistName = () => {
     <section className='art_name_wrap'>
       {!load ?
         <>
-          <section className={'art_bg_wrap'}>
-            <h1 className={'art_name'}>
-              {target.name.toUpperCase()}
-            </h1>
-            <img className='art_bg' src={`http://localhost:8000/${query}/thumbnail.jpg`} />
+          <section className='art_shadow'>
+            <section className={'art_bg_wrap'}>
+              <h1 className={'art_name'}>
+                {target.name.toUpperCase()}
+              </h1>
+              <img className='art_bg' src={`http://localhost:8000/${query}/thumbnail.jpg`} />
+            </section>
           </section>
           <section className={`art_profile_wrap`}>
             <h2>Profile</h2>
@@ -55,9 +57,11 @@ const ArtistName = () => {
           </section>
         </>
         :
-        <p>
-          로딩
-        </p>
+        <section className='art_shadow'>
+            <section className={'art_bg_wrap load'}>
+              <img className='art_bg' src={`http://localhost:8000/${query}/thumbnail.jpg`} />
+            </section>
+          </section>
       }
     </section>
   )

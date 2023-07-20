@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import fetcher from "../fetcher";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const NavBar = ({
 }) => {
   const [category, setCategory] = useState([])
+  const router = useRouter();
+  const query = router.query.category
   const getCategory = async () => {
     const data = await fetcher('get', 'category')
     setCategory(data)
@@ -11,9 +15,9 @@ const NavBar = ({
   useEffect(() => {
     getCategory()
   }, [])
-  if (category.length !== 0) {
-    console.log(category.map(i => i.category_kor))
-  }
+  // if (category.length !== 0) {
+  //   console.log(category.map(i => i.category),router)
+  // }
   return (
     <header>
       <section className='header_wrap'>
@@ -24,7 +28,9 @@ const NavBar = ({
           {category.length !== 0
             ?
             category.map(i => (
-              <p key={i.category}>{i.category_kor}</p>
+              <Link key={i.category} href={`/${i.category}`}>
+                <p className={router.asPath.includes(i.category)?"active category_item":"category_item"}>{i.category_kor}</p>
+              </Link>
             ))
             :
             ''
