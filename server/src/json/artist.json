@@ -1,5 +1,39 @@
 {
-  "newjeans":{"name":"newjeans","group":"true"},
-  "edsheeran":{"name":"edsheeran","group":"false"},
-  "yoasobi":{"name":"yoasobi","group":"true"}
+  "newjeans": {
+    "name": "newjeans",
+    "group": "group",
+    "country": "south korea",
+    "sns": [
+      {
+        "insta": ""
+      }
+    ],
+    "debut": "1234567890123",
+    "thumbnail": "/newjeans/thumbnail.jpg",
+    "profileurl": "/newjeans/profile.jpg"
+  },
+  "edsheeran": {
+    "name": "edsheeran",
+    "group": "solo",
+    "country": "island",
+    "debut": "1234567890123",
+    "thumbnail": "/edsheeran/thumbnail.jpg",
+    "profileurl": "/edsheeran/profile.jpg"
+  },
+  "yoasobi": {
+    "name": "yoasobi",
+    "group": "group",
+    "country": "japan",
+    "debut": "1234567890123",
+    "thumbnail": "/yoasobi/thumbnail.jpg",
+    "profileurl": "/yoasobi/profile.jpg"
+  },
+  "vaundy": {
+    "name": "vaundy",
+    "group": "solo",
+    "country": "japan",
+    "debut": "1234567890123",
+    "thumbnail": "/yoasobi/thumbnail.jpg",
+    "profileurl": "/yoasobi/profile.jpg"
+  }
 }

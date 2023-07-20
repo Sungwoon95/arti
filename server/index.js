@@ -1,7 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import artistRoute from './src/routes/artist.js';
-import {resolve} from 'path'
+import { resolve } from 'path'
+import categoryRoute from './src/routes/artist copy.js';
 
 const app = express();
 const PORT = 8000;
@@ -12,19 +13,19 @@ app.use(cors({
   credentials: true
 }))
 
-const basePath = resolve() 
-const imgPath = app.use(express.static(resolve(basePath,'src/img')))
+const basePath = resolve()
+const imgPath = app.use(express.static(resolve(basePath, 'src/img')))
 
-const routes = [...artistRoute]
+const routes = [...artistRoute, ...categoryRoute]
 
-app.get('/',(_,res)=>{
+app.get('/', (_, res) => {
   res.send('good')
 })
 
-const routesl = routes.forEach(({method,route,handler})=>{
-  app[method](route,handler)
+const routesl = routes.forEach(({ method, route, handler }) => {
+  app[method](route, handler)
 })
 
-app.listen(PORT,()=>{
+app.listen(PORT, () => {
   console.log('app', imgPath)
 })
