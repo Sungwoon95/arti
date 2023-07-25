@@ -27,9 +27,6 @@ const Comment = (props) => {
         {text}
       </p>
       <div className={'flex'}>
-        <span className={'comment_icon'}>
-          <img src={'http://localhost:8000/icon/heart.png'} />
-        </span>
         <span className={'comment_like'}>
           +{like}
         </span>

@@ -31,7 +31,7 @@
   },
   {
     "artistname": "new jeans",
-    "date": "1456790123456",
+    "date": "1672585200000",
     "albumtype": "싱글",
     "albumtitle": "NewJeans 'OMG'",
     "imgurl": "newjeans/omg.jpg",
@@ -56,7 +56,7 @@
   {
     "artistname": "new jeans",
     "albumtype": "EP",
-    "date": "1688655600000",
+    "date": "1689865200000",
     "albumtitle": "NewJeans 2nd EP 'Get Up'",
     "imgurl": "newjeans/shy.jpg",
     "song": [
@@ -71,7 +71,7 @@
   {
     "artistname": "new jeans",
     "albumtype": "싱글",
-    "date": "1646790123456",
+    "date": "1680447600000",
     "albumtitle": "Zero",
     "imgurl": "newjeans/zero.jpg",
     "song": [

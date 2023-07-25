@@ -13,7 +13,7 @@ a{text-decoration:none; color:#333333; display:block;}
 p{line-height: 24px;}
 li{list-style:none}
 time,span{line-height: 20px; display:block; font-size: 14px;}
-.active{color:#4d6bff !important; font-weight:bold;}
+.active{color:#458aff !important; font-weight:bold;}
 h1,h2,h3{font-family: 'Happiness-Sans-Title';}
 .flex{display:flex; align-items: center;}
 .flex_base{display:flex; align-items: baseline;}
@@ -127,7 +127,7 @@ h2{font-size: 24px; line-height: 32px; padding-bottom:16px; white-space: nowrap;
 .art_info aside{display:flex; align-items: center;}
 /*  */
 .category_item{line-height: 36px; position: relative; top:0; left:0; padding:0 8px; box-sizing: border-box;}
-.category_item.active::after{display:block; content:""; position: absolute; width:100%; height:2px; left:0; background-color:#4d6bff; bottom:-8px;}
+.category_item.active::after{display:block; content:""; position: absolute; width:100%; height:2px; left:0; background-color:#458aff; bottom:-8px;}
 
 /*  */
 .sns_card_wrap{background-color: rgba(255, 255, 255, 0.2); box-shadow: 0 0 2px #555555; backdrop-filter: blur(2px); border-radius: 4px; padding:4px; box-sizing: border-box;}
