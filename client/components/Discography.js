@@ -15,16 +15,16 @@ const Discography = ({
   // console.log(albumtitle)
   return (
     <section className="discography_wrap" onClick={onClick}>
-      <section className="discography_img">
+      <div className="discography_img">
         {/* <div className='img' /> */}
         <img className='img' src={`http://localhost:8000/${imgurl}`} />
-      </section>
+      </div>
       <section className="discography_info">
         <time dateTime={dateTime}>
           {new Date(parseInt(date)).getFullYear()}
-          -
+          .
           {new Date(parseInt(date)).getMonth() + 1}
-          -
+          .
           {new Date(parseInt(date)).getDate()}
         </time>
         <h3 onClick={onClick}>{albumtitle}</h3>

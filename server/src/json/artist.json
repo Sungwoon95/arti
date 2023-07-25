@@ -2,38 +2,125 @@
   "newjeans": {
     "name": "new jeans",
     "group": "group",
+    "type": "그룹",
+    "name_kor": "뉴진스",
     "country": "south korea",
+    "page_view": "29312",
+    "country_kor": "한국",
     "sns": [
       {
-        "insta": ""
+        "insta": "newjeans_official",
+        "twitter": "NewJeans_ADOR",
+        "youtube": "@NewJeans_official",
+        "facebook": "official.newjeans?mibextid=ZbWKwL",
+        "tiktok": "@newjeans_official"
       }
     ],
-    "debut": "1234567890123",
+    "debut": "1658415600000",
     "thumbnail": "/newjeans/thumbnail.jpg",
-    "profileurl": "/newjeans/profile.jpg"
+    "profileurl": "/newjeans/profile.jpg",
+    "related": [
+      "yoasobi",
+      "aespa"
+    ]
   },
   "edsheeran": {
     "name": "ed sheeran",
     "group": "solo",
-    "country": "island",
+    "type": "솔로",
+    "name_kor": "에드 시런",
+    "page_view": "12032",
+    "country": "england",
     "debut": "1234567890123",
+    "country_kor": "영국",
     "thumbnail": "/edsheeran/thumbnail.jpg",
-    "profileurl": "/edsheeran/profile.jpg"
+    "sns": [
+      {
+        "insta": "dw",
+        "spotify": "j",
+        "twitter": "j",
+        "youtube": "y",
+        "facebook": "y",
+        "tiktok": "y"
+      }
+    ],
+    "profileurl": "/edsheeran/profile.jpg",
+    "related": [
+      "yoasobi"
+    ]
   },
   "yoasobi": {
     "name": "yoasobi",
+    "type": "그룹",
+    "name_kor": "요아소비",
     "group": "group",
     "country": "japan",
+    "page_view": "19921",
+    "country_kor": "일본",
     "debut": "1234567890123",
+    "sns": [
+      {
+        "insta": "dw",
+        "spotify": "j",
+        "twitter": "j",
+        "youtube": "y",
+        "facebook": "y"
+      }
+    ],
     "thumbnail": "/yoasobi/thumbnail.jpg",
-    "profileurl": "/yoasobi/profile.jpg"
+    "profileurl": "/yoasobi/profile.jpg",
+    "related": [
+      "vaundy"
+    ]
   },
   "vaundy": {
     "name": "vaundy",
-    "group": "solo",
+    "group": "8829",
+    "page_view": "1020",
+    "name_kor": "바운디",
+    "country_kor": "일본",
+    "type": "솔로",
     "country": "japan",
-    "debut": "1234567890123",
-    "thumbnail": "/yoasobi/thumbnail.jpg",
-    "profileurl": "/yoasobi/profile.jpg"
+    "sns": [
+      {
+        "insta": "dw",
+        "spotify": "j",
+        "twitter": "j",
+        "youtube": "y",
+        "facebook": "y",
+        "tiktok": "y"
+      }
+    ],
+    "debut": "1626879600000",
+    "thumbnail": "/vaundy/thumbnail.jpg",
+    "profileurl": "/vaundy/profile.jpg",
+    "related": [
+      "yoasobi"
+    ]
+  },
+  "aespa": {
+    "name": "aespa",
+    "group": "group",
+    "page_view": "18291",
+    "name_kor": "에스파",
+    "country_kor": "한국",
+    "type": "그룹",
+    "country": "south korea",
+    "sns": [
+      {
+        "insta": "dw",
+        "spotify": "j",
+        "twitter": "j",
+        "youtube": "y",
+        "facebook": "y",
+        "tiktok": "y"
+      }
+    ],
+    "debut": "1605538800000",
+    "thumbnail": "/aespa/thumbnail.jpg",
+    "profileurl": "/aespa/profile.jpg",
+    "related": [
+      "new jeans"
+    ]
   }
 }

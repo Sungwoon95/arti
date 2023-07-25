@@ -1,6 +1,7 @@
 [
   {
     "artistname": "vaundy",
+    "albumtype": "싱글",
     "albumtitle": "테스트",
     "date": "1234567891234",
     "imgurl": "newjeans/new.jpg",
@@ -10,8 +11,9 @@
   },
   {
     "artistname": "vaundy",
+    "albumtype": "싱글",
     "albumtitle": "테스트2",
-    "date": "15384827482912",
+    "date": "1626879600000",
     "imgurl": "newjeans/omg.jpg",
     "song": [
       "테스트2"
@@ -19,6 +21,7 @@
   },
   {
     "artistname": "vaundy",
+    "albumtype": "싱글",
     "albumtitle": "테스트3",
     "date": "1456790123456",
     "imgurl": "newjeans/omg.jpg",
@@ -27,8 +30,20 @@
     ]
   },
   {
-    "artistname": "newjeans",
+    "artistname": "new jeans",
     "date": "1456790123456",
+    "albumtype": "싱글",
+    "albumtitle": "NewJeans 'OMG'",
+    "imgurl": "newjeans/omg.jpg",
+    "song": [
+      "OMG",
+      "Ditto"
+    ]
+  },
+  {
+    "artistname": "new jeans",
+    "albumtype": "EP",
+    "date": "1658415600000",
     "albumtitle": "NewJeans 1st EP 'New Jeans'",
     "imgurl": "newjeans/new.jpg",
     "song": [
@@ -39,27 +54,23 @@
     ]
   },
   {
-    "artistname": "newjeans",
-    "date": "1456790123456",
-    "albumtitle": "NewJeans 'OMG'",
-    "imgurl": "newjeans/omg.jpg",
-    "song": [
-      "OMG",
-      "Ditto"
-    ]
-  },
-  {
-    "artistname": "newjeans",
+    "artistname": "new jeans",
+    "albumtype": "EP",
     "date": "1688655600000",
-    "albumtitle": "NewJeans 'Super Shy'",
+    "albumtitle": "NewJeans 2nd EP 'Get Up'",
     "imgurl": "newjeans/shy.jpg",
     "song": [
       "New Jeans",
-      "Super Shy"
+      "Super Shy",
+      "ETA",
+      "Cool With You",
+      "Get up",
+      "ASAP"
     ]
   },
   {
-    "artistname": "newjeans",
+    "artistname": "new jeans",
+    "albumtype": "싱글",
     "date": "1646790123456",
     "albumtitle": "Zero",
     "imgurl": "newjeans/zero.jpg",
@@ -69,6 +80,7 @@
   },
   {
     "artistname": "yoasobi",
+    "albumtype": "싱글",
     "date": "1456790129456",
     "albumtitle": "NewJeans 1st EP 'New Jeans'",
     "imgurl": "/yoasobi/1.jpg",
@@ -81,6 +93,7 @@
   },
   {
     "artistname": "yoasobi",
+    "albumtype": "싱글",
     "date": "1456790199456",
     "albumtitle": "NewJeans 'OMG'",
     "imgurl": "/yoasobi/2.jpg",
@@ -91,6 +104,7 @@
   },
   {
     "artistname": "yoasobi",
+    "albumtype": "싱글",
     "date": "1456790135456",
     "albumtitle": "Zero",
     "imgurl": "/yoasobi/idol.jpg",
@@ -100,16 +114,18 @@
   },
   {
     "artistname": "yoasobi",
+    "albumtype": "싱글",
     "date": "1456790123456",
     "albumtitle": "NewJeans 'Super Shy'",
-    "imgurl": "",
+    "imgurl": "/yoasobi/idol.jpg",
     "song": [
       "New Jeans",
       "Super Shy"
     ]
   },
   {
-    "artistname": "edsheeran",
+    "artistname": "ed sheeran",
+    "albumtype": "싱글",
     "date": "1456790123456",
     "albumtitle": "NewJeans 1st EP 'New Jeans'",
     "imgurl": "/edsheeran/divide.jpg",
@@ -121,7 +137,8 @@
     ]
   },
   {
-    "artistname": "edsheeran",
+    "artistname": "ed sheeran",
+    "albumtype": "싱글",
     "date": "1456790123456",
     "albumtitle": "NewJeans 'OMG'",
     "imgurl": "/edsheeran/no6.jpg",
@@ -131,12 +148,43 @@
     ]
   },
   {
-    "artistname": "edsheeran",
+    "artistname": "ed sheeran",
+    "albumtype": "싱글",
+    "date": "1402790123456",
+    "albumtitle": "QWERTY",
+    "imgurl": "/edsheeran/no6.jpg",
+    "song": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  {
+    "artistname": "ed sheeran",
+    "albumtype": "싱글",
     "date": "1556790123456",
     "albumtitle": "Zero",
     "imgurl": "/edsheeran/min.jpg",
     "song": [
-      "Zero"
+      "Zero",
+      "One",
+      "Two",
+      "Tree"
+    ]
+  },
+  {
+    "artistname": "aespa",
+    "albumtype": "싱글",
+    "date": "1556790123456",
+    "albumtitle": "Zero",
+    "imgurl": "/edsheeran/min.jpg",
+    "song": [
+      "Zero",
+      "One",
+      "Two",
+      "Tree"
     ]
   }
 ]

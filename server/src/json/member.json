@@ -1,0 +1,47 @@
+[
+  {
+    "target": "aespa",
+    "memberid": "awnfklawnflawk",
+    "target_kor": "에스파",
+    "name": "카리나",
+    "born": "955378800000",
+    "gender": "female",
+    "country_kor": "한국",
+    "height": "168",
+    "sns": [
+      {
+        "insta": "dw"
+      }
+    ]
+  },
+  {
+    "target": "new jeans",
+    "target_kor": "뉴진스",
+    "name": "해린",
+    "memberid": "awnfklawnflawda",
+    "country_kor": "한국",
+    "born": "1147618800000",
+    "gender": "female",
+    "height": "164.5",
+    "sns": [
+      {
+        "insta": "dw"
+      }
+    ]
+  },
+  {
+    "target": "aespa",
+    "target_kor": "에스파",
+    "memberid": "jwndbakwbd",
+    "name": "윈터",
+    "country_kor": "한국",
+    "born": "978274800000",
+    "gender": "female",
+    "height": "164",
+    "sns": [
+      {
+        "insta": "dw"
+      }
+    ]
+  }
+]

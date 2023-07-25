@@ -1,0 +1,282 @@
+[
+  {
+    "text": "1번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690055057000,
+    "user": "@유저5",
+    "like": "23"
+  },
+  {
+    "text": "2번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690056497000,
+    "user": "@유저3",
+    "like": "1"
+  },
+  {
+    "text": "3번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690057937000,
+    "user": "@유저1",
+    "like": "15"
+  },
+  {
+    "text": "4번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690059377000,
+    "user": "@유저4",
+    "like": "15"
+  },
+  {
+    "text": "5번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690060817000,
+    "user": "@유저8",
+    "like": "12"
+  },
+  {
+    "text": "6번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690062257000,
+    "user": "@유저4",
+    "like": "17"
+  },
+  {
+    "text": "7번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690063697000,
+    "user": "@유저7",
+    "like": "17"
+  },
+  {
+    "text": "8번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690065137000,
+    "user": "@유저0",
+    "like": "23"
+  },
+  {
+    "text": "9번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690066577000,
+    "user": "@유저4",
+    "like": "15"
+  },
+  {
+    "text": "10번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690068017000,
+    "user": "@유저2",
+    "like": "11"
+  },
+  {
+    "text": "11번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690069457000,
+    "user": "@유저5",
+    "like": "13"
+  },
+  {
+    "text": "12번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690070897000,
+    "user": "@유저3",
+    "like": "19"
+  },
+  {
+    "text": "13번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690072337000,
+    "user": "@유저8",
+    "like": "21"
+  },
+  {
+    "text": "14번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690073777000,
+    "user": "@유저4",
+    "like": "13"
+  },
+  {
+    "text": "15번 째 댓글입니다.",
+    "target": "ed sheeran",
+    "createdAt": 1690075217000,
+    "user": "@유저7",
+    "like": "3"
+  },
+  {
+    "text": "16번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690076657000,
+    "user": "@유저4",
+    "like": "6"
+  },
+  {
+    "text": "17번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690078097000,
+    "user": "@유저5",
+    "like": "8"
+  },
+  {
+    "text": "18번 째 댓글입니다.",
+    "target": "ed sheeran",
+    "createdAt": 1690079537000,
+    "user": "@유저5",
+    "like": "12"
+  },
+  {
+    "text": "19번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690080977000,
+    "user": "@유저3",
+    "like": "21"
+  },
+  {
+    "text": "20번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690082417000,
+    "user": "@유저0",
+    "like": "11"
+  },
+  {
+    "text": "21번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690083857000,
+    "user": "@유저4",
+    "like": "16"
+  },
+  {
+    "text": "22번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690085297000,
+    "user": "@유저0",
+    "like": "13"
+  },
+  {
+    "text": "23번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690086737000,
+    "user": "@유저4",
+    "like": "0"
+  },
+  {
+    "text": "24번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690088177000,
+    "user": "@유저6",
+    "like": "6"
+  },
+  {
+    "text": "25번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690089617000,
+    "user": "@유저7",
+    "like": "17"
+  },
+  {
+    "text": "26번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690091057000,
+    "user": "@유저3",
+    "like": "8"
+  },
+  {
+    "text": "27번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690092497000,
+    "user": "@유저2",
+    "like": "7"
+  },
+  {
+    "text": "28번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690093937000,
+    "user": "@유저8",
+    "like": "24"
+  },
+  {
+    "text": "29번 째 댓글입니다.",
+    "target": "yoasobi",
+    "createdAt": 1690095377000,
+    "user": "@유저1",
+    "like": "0"
+  },
+  {
+    "text": "30번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690096817000,
+    "user": "@유저5",
+    "like": "20"
+  },
+  {
+    "text": "31번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690098257000,
+    "user": "@유저5",
+    "like": "3"
+  },
+  {
+    "text": "32번 째 댓글입니다.",
+    "target": "ed sheeran",
+    "createdAt": 1690099697000,
+    "user": "@유저2",
+    "like": "14"
+  },
+  {
+    "text": "33번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690101137000,
+    "user": "@유저1",
+    "like": "1"
+  },
+  {
+    "text": "34번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690102577000,
+    "user": "@유저2",
+    "like": "21"
+  },
+  {
+    "text": "35번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690104017000,
+    "user": "@유저1",
+    "like": "8"
+  },
+  {
+    "text": "36번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690105457000,
+    "user": "@유저2",
+    "like": "0"
+  },
+  {
+    "text": "37번 째 댓글입니다.",
+    "target": "vaundy",
+    "createdAt": 1690106897000,
+    "user": "@유저5",
+    "like": "10"
+  },
+  {
+    "text": "38번 째 댓글입니다.",
+    "target": "aespa",
+    "createdAt": 1690108337000,
+    "user": "@유저7",
+    "like": "24"
+  },
+  {
+    "text": "39번 째 댓글입니다.",
+    "target": "new jeans",
+    "createdAt": 1690109777000,
+    "user": "@유저5",
+    "like": "10"
+  },
+  {
+    "text": "40번 째 댓글입니다.",
+    "target": "ed sheeran",
+    "createdAt": 1690111217000,
+    "user": "@유저5",
+    "like": "14"
+  }
+]

@@ -8,9 +8,10 @@ const UserProfile = ({
   // console.log(sns)
   return (
     <section className='user_profile_wrap'>
-
-      <section className='user_profile_img'>
-        <img src={`http://localhost:8000/${profileurl}`} />
+      <section className='user_profile_img_wrap'>
+        <div className='user_profile_img'>
+          <img src={`http://localhost:8000/${profileurl}`} />
+        </div>
       </section>
       <section className='user_profile_info'>
         <h3>{name}</h3>
@@ -18,8 +19,6 @@ const UserProfile = ({
         <h3>{country}</h3>
         <h3>{debut}</h3>
       </section>
-
-
     </section>
   )
 }

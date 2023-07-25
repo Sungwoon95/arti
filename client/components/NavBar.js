@@ -21,15 +21,20 @@ const NavBar = ({
   return (
     <header>
       <section className='header_wrap'>
-        <section>
-          <div className='logo_img' />
-        </section>
+        <Link href={'/'}>
+          <div>
+            <div className='logo_img' />
+          </div>
+        </Link>
         <ul>
           {category.length !== 0
             ?
             category.map(i => (
               <Link key={i.category} href={`/${i.category}`}>
-                <p className={router.asPath.includes(i.category)?"active category_item":"category_item"}>{i.category_kor}</p>
+                <p style={router.asPath.includes('artist') ? { color: '#777777' } : {}}
+                  className={router.asPath.includes(i.category) ? "active category_item" : "category_item"}>
+                  {i.category_kor}
+                </p>
               </Link>
             ))
             :
