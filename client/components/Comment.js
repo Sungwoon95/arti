@@ -10,6 +10,7 @@ import { calcDate } from "../utils/calcDate"
 //   like: `${Math.floor(Math.random() * 25)}`
 // }))
 
+// 댓글 컴포넌트
 const Comment = (rest) => {
   const { text, user, createdAt, like } = rest
   // console.log(JSON.stringify(CommentArr))

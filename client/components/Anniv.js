@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { calcDate } from "../utils/calcDate";
 
-// 
+//  n주년 아티스트 컴포넌트
 const Anniv = (rest) => {
   const { name_kor, thumbnail, type, country_kor, name, group, country, debut, tumbnail, year, debut_album } = rest
   const { albumtitle, imgurl, date, albumtype, song } = debut_album

@@ -2,9 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 
-const SnsCard = ({
-  ...rest
-}) => {
+const SnsCard = (rest) => {
   const { insta, twitter, facebook, tiktok, spotify, youtube } = rest
   // 구조 분해 할당
   const [snsList, setSnsList] = useState(Object.keys(rest).map(i => i))

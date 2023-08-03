@@ -1,7 +1,7 @@
 import Link from "next/link"
 
-const RelatedArtist = ({ ...props }) => {
-  const { name, country_kor, type, name_kor } = props
+const RelatedArtist = (rest) => {
+  const { name, country_kor, type, name_kor } = rest
   const trimName = name.replace(' ', "")
   // console.log(props)
   return (

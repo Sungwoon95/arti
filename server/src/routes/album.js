@@ -1,4 +1,4 @@
-import { readJSON } from '../jsonController.js'
+import { readJSON, writeJSON } from '../jsonController.js'
 
 const artistRoute = [
   {
@@ -9,17 +9,36 @@ const artistRoute = [
       res.send(album)
     }
   }, {
+    method: 'post',
+    route: '/album',
+    handler: ({ body }, res) => {
+      try {
+        if (!body.albumtitle) return
+        const album = readJSON('album')
+        const newAlbum = {
+          ...body
+        }
+        album.unshift(newAlbum)
+        writeJSON('album', album)
+        res.send(newAlbum)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+  },
+  {
     method: 'get',
     route: '/album/:name',
     handler: ({ params: { name } }, res) => {
       try {
-        const artist = readJSON('artist')
-        const target = readJSON('album')
-        const targetAlbum = target.filter(i => i.artistname.replace(' ', '') === name)
+        const album = readJSON('album')
+        const song = readJSON('song')
+        const targetAlbum = album.find(i => i.targetid === name)
+        const targetSong = song.filter(i => i.albumid === name)
         // const target = artist[name.replace(" ", "")]
-        // if (!target) throw Error('해당 아티스트가 없습니다.')
-        // console.log(target)
-        res.send(targetAlbum)
+        if (!targetAlbum || targetAlbum === undefined) throw Error('해당 앨범이 없습니다.')
+        console.log()
+        res.send({ targetAlbum, targetSong })
       } catch (error) {
         console.error(error)
       }

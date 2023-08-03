@@ -5,8 +5,12 @@ const categoryRoute = [
     method: 'get',
     route: '/category',
     handler: (req, res) => {
-      const category = readJSON('category')
-      res.send(category)
+      try {
+        const category = readJSON('category')
+        res.send(category)
+      } catch (error) {
+        console.error('category:', error)
+      }
     }
   }
 ]

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={'default_page'}>
       <Link href={'/artist'}>
-        <h2 class={'link'}>
+        <h2 className={'link'}>
           페이지 이동
         </h2>
       </Link>

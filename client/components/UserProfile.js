@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const UserProfile = ({
-  profile
+  rest
 }) => {
-  const { name, group, country, sns, debut, profileurl } = profile
+  const { name, group, country, sns, debut, profileurl } = rest
   // 구조 분해 할당
   // console.log(sns)
   return (

@@ -1,41 +1,45 @@
 import { useState } from "react";
+import { calcDate } from "../utils/calcDate";
 
-const Discography = ({
-  albumtitle, date, imgurl, song, load, artistname
-}) => {
+const Discography = ({ albumtitle, date, imgurl, song, load, artistname, onDelete }) => {
   const [toggle, setToggle] = useState(false);
+  const [hasImg, setHasImg] = useState(true)
   // if (load === true) return
   // const { artistname, album } = targetAlbum
-  const dateTime = new Date(parseInt(date)).toLocaleString('ko-KR', {
-    years: 'numeric'
-  })
+
   const onClick = () => {
     setToggle(!toggle)
   }
-  // console.log(albumtitle)
+
+  const onError = () => {
+    setHasImg(false)
+  }
   return (
     <section className="discography_wrap" onClick={onClick}>
       <div className="discography_img">
         {/* <div className='img' /> */}
-        <img className='img' src={`http://localhost:8000/${imgurl}`} />
+        {hasImg
+          ?
+          <img onError={onError} className='img' src={`http://localhost:8000/${imgurl}`} />
+          :
+          <div className={'img'} >
+            <p style={{ color: '#ffffff' }}>
+              {albumtitle}
+            </p>
+          </div>
+        }
       </div>
       <section className="discography_info">
-        <time dateTime={dateTime}>
-          {new Date(parseInt(date)).getFullYear()}
-          .
-          {new Date(parseInt(date)).getMonth() + 1}
-          .
-          {new Date(parseInt(date)).getDate()}
+        <time dateTime={calcDate(date, '.').dateTime}>
+          {calcDate(date, '.').type}
         </time>
         <h3 onClick={onClick}>{albumtitle}</h3>
         <p>{artistname}</p>
       </section>
-      {toggle ? song.map(i => (
+      {/* <button onClick={onDelete}>삭제</button> */}
+      {/* {toggle ? song.map(i => (
         <p key={i}>{i}</p>
-      )) : <></>}
-      {/* <aside>
-        <p>Track List</p>
-      </aside> */}
+      )) : <></>} */}
     </section>
   )
 }

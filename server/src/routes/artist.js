@@ -25,7 +25,7 @@ const artistRoute = [
         return cur - pre
       }).slice(0, 3)
       const annivArtist = targetValue.filter(i => calcAnniv(i.debut, 'm') === calcAnniv(Date.now(), 'm'))
-        .filter(i => calcAnniv(i.debut, 'd') === calcAnniv(Date.now(), 'd') - 3).map((i) => ({
+        .filter(i => calcAnniv(i.debut, 'd') === calcAnniv(Date.now(), 'd')).map((i) => ({
           ...i, year: calcAnniv(Date.now(), 'y') - calcAnniv(i.debut, 'y'),
           debut_album: debutAlbum[debutAlbum.findIndex((el) => el.artistname === i.name && el.date === i.debut)]
         }))
@@ -59,6 +59,12 @@ const artistRoute = [
       } catch (error) {
         console.error(error)
       }
+    }
+  }, {
+    method: 'get',
+    route: '/artist/:name?sort=like',
+    handler: (req, res) => {
+      res.send(req.query)
     }
   }
 ]

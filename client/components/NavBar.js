@@ -31,8 +31,7 @@ const NavBar = ({
             ?
             category.map(i => (
               <Link key={i.category} href={`/${i.category}`}>
-                <p style={router.asPath.includes('artist') ? { color: '#777777' } : {}}
-                  className={router.asPath.includes(i.category) ? "active category_item" : "category_item"}>
+                <p className={router.asPath.includes(i.category) ? "active category_item" : "category_item"}>
                   {i.category_kor}
                 </p>
               </Link>
@@ -40,6 +39,9 @@ const NavBar = ({
             :
             ''
           }
+          <Link href='/s'>
+            검색
+          </Link>
         </ul>
       </section>
     </header>

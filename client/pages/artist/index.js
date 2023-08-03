@@ -6,21 +6,21 @@ import IconTitle from '../../components/IconTitle';
 import Link from 'next/link';
 import Anniv from '../../components/Anniv';
 
-const category = () => {
+const AritstIndex = () => {
   const router = useRouter();
   const [artist, setArtist] = useState({});
   const [load, setLoad] = useState(true)
+
   const getArtist = async () => {
     const data = await fetcher('get', 'artist')
     setArtist(data)
   }
-
+  const { target, monthly, annivArtist } = artist
   useEffect(() => {
     if (!router.isReady) return;
     getArtist();
   }, [router.isReady])
 
-  const { target, monthly, annivArtist } = artist
 
   useEffect(() => {
     if (target == undefined) return
@@ -91,4 +91,4 @@ const category = () => {
   )
 }
 
-export default category
+export default AritstIndex

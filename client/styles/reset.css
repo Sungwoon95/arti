@@ -105,15 +105,15 @@ header ul{display:flex;}
 .discography_wrap aside{width:100%;}
 .discography_wrap aside p{ color:#aaaaaa; width:100%; text-align: center;}
 .discography_wrap+.discography_wrap{margin-top:12px;}
-.discography_img{margin-right:16px; border-radius: 4px; overflow: hidden;}
+.discography_img{margin-right:8px; border-radius: 4px; overflow: hidden;}
 .discography_img .img{width:80px; height:80px; background-color: #222222;}
-.discography_info{width:calc(100% - 96px)}
+.discography_info{width:calc(100% - 88px)}
 .discography_info h3{line-height: 28px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis; padding-top:8px;}
 .discography_info p{font-size: 16px; line-height: 20px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis;}
 .art_name{color:#ffffff;text-shadow: 0 0 4px #000000; user-select: none; position: absolute;padding:8px; box-sizing: border-box; bottom:0; z-index: 3; max-width: 1200px; width:100%;}
 .art_name .country{margin-bottom:-2px;}
 .art_name h1{font-size: 36px; line-height: 36px; padding-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-.flex *+*, .flex_base *+*{padding-left:4px;}
+.flex *+*, .flex_base *+*{margin-left:4px;}
 .art_bg_wrap{max-width:1200px; margin:0 auto; position: relative; overflow: hidden; padding-bottom:clamp(480px, 40%, 720px);}
 .art_bg_wrap.load::before{background: #000000;}
 .art_bg_wrap::before{display:block; z-index: 1; content:''; width:100%; height:100%; background: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6) 17%, transparent, rgba(0, 0, 0, 0.6) 83%, rgba(0, 0, 0, 1) 100%);position: absolute; bottom:0; transform:scale(1)}
@@ -176,6 +176,16 @@ header ul{display:flex;}
 .related_artist_img{border-radius: 8px; overflow: hidden; }
 .related_artist_img img{position: absolute; top:0; left:0; height:100%; object-fit: cover;}
 .related_artist_img{width:100%; padding-bottom:60%; position: relative;}
+
+/* album/:name */
+.album_name_section{padding-top: 52px;}
+.album_song_info + .album_song_info{margin-top:20px;}
+.album_name_list{max-width: 1200px; margin:24px auto 0; padding:0 16px; box-sizing: border-box;}
+.album_name_title{ display: flex;}
+/* center img components */
+.center_img_wrap{width:100%;}
+.center_img{width:100%; position: relative; border-radius: 8px; overflow: hidden;}
+.center_img img{height:100%; position: absolute; top:50%; left:50%; transform:translate(-50%,-50%)}
 
 /* footer */
 footer{padding:24px 0; background-color: #030613;}
