@@ -10,8 +10,8 @@ import { calcDate } from "../utils/calcDate"
 //   like: `${Math.floor(Math.random() * 25)}`
 // }))
 
-const Comment = (props) => {
-  const { text, user, createdAt, like } = props
+const Comment = (rest) => {
+  const { text, user, createdAt, like } = rest
   // console.log(JSON.stringify(CommentArr))
   return (
     <section className={'comment_wrap'}>
