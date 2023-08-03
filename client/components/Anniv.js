@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { calcDate } from "../utils/calcDate";
 
-const Anniv = (
-  rest
-) => {
+// 
+const Anniv = (rest) => {
   const { name_kor, thumbnail, type, country_kor, name, group, country, debut, tumbnail, year, debut_album } = rest
   const { albumtitle, imgurl, date, albumtype, song } = debut_album
   const trimName = name.replace(" ", "")
