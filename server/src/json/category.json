@@ -2,5 +2,13 @@
   {
     "category": "artist",
     "category_kor": "아티스트"
+  },
+  {
+    "category": "album",
+    "category_kor": "앨범"
+  },
+  {
+    "category": "song",
+    "category_kor": "노래"
   }
 ]

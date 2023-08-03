@@ -1,0 +1,87 @@
+[
+  {
+    "artistname": "newjeans",
+    "albumid": "awdjaknxklkm15",
+    "istitle": true,
+    "runningtime": "177",
+    "songname": "Hype Boy",
+    "date": 1690424280585,
+    "lyric": "Baby (baby), got me looking so crazy (crazy) 빠져버리는 daydream (daydream) Got me feeling you 너도 말해줄래?",
+    "link": [
+      "https://youtube.com"
+    ],
+    "arrangement": [
+      "250"
+    ],
+    "like": 182,
+    "views": 446
+  },
+  {
+    "artistname": "newjeans",
+    "albumid": "awdjaknxklkm15",
+    "istitle": true,
+    "runningtime": "177",
+    "songname": "Attention",
+    "date": 1690424280585,
+    "lyric": "Attention",
+    "link": [
+      "https://youtube.com"
+    ],
+    "arrangement": [
+      "250"
+    ],
+    "like": 45,
+    "views": 915
+  },
+  {
+    "artistname": "newjeans",
+    "albumid": "awdjaknxklkm15",
+    "istitle": false,
+    "runningtime": "177",
+    "songname": "Cookie",
+    "date": 1690424280585,
+    "lyric": "내가 만든 쿠키 너를 위해 구웠지 ",
+    "link": [
+      "https://youtube.com"
+    ],
+    "arrangement": [
+      "250"
+    ],
+    "like": 138,
+    "views": 786
+  },
+  {
+    "artistname": "newjeans",
+    "albumid": "awdjaknxklkm15",
+    "istitle": false,
+    "runningtime": "177",
+    "songname": "Hurt",
+    "date": 1690424280585,
+    "lyric": "Baby (baby), got me looking so crazy (crazy) 빠져버리는 daydream (daydream) Got me feeling you 너도 말해줄래?",
+    "link": [
+      "https://youtube.com"
+    ],
+    "arrangement": [
+      "250"
+    ],
+    "like": 33,
+    "views": 680
+  },
+  {
+    "artistname": "newjeans",
+    "albumid": "awdjaknxklkm16",
+    "istitle": true,
+    "runningtime": "177",
+    "songname": "Zero",
+    "date": 1690424280585,
+    "lyric": "Baby (baby), got me looking so crazy (crazy) 빠져버리는 daydream (daydream) Got me feeling you 너도 말해줄래?",
+    "link": [
+      "https://youtube.com"
+    ],
+    "arrangement": [
+      "250"
+    ],
+    "like": 96,
+    "views": 341
+  }
+]

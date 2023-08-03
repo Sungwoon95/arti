@@ -1,5 +1,6 @@
 {
   "newjeans": {
+    "artistid": "awdijwod1",
     "name": "new jeans",
     "group": "group",
     "type": "그룹",
@@ -25,6 +26,7 @@
     ]
   },
   "edsheeran": {
+    "artistid": "awdijwod2",
     "name": "ed sheeran",
     "group": "solo",
     "type": "솔로",
@@ -50,6 +52,7 @@
     ]
   },
   "yoasobi": {
+    "artistid": "awdijwod3",
     "name": "yoasobi",
     "type": "그룹",
     "name_kor": "요아소비",
@@ -75,6 +78,7 @@
   },
   "vaundy": {
     "name": "vaundy",
+    "artistid": "awdijwod4",
     "group": "8829",
     "page_view": "1020",
     "name_kor": "바운디",
@@ -100,6 +104,7 @@
   },
   "aespa": {
     "name": "aespa",
+    "artistid": "awdijwod5",
     "group": "group",
     "page_view": "18291",
     "name_kor": "에스파",

@@ -7,7 +7,8 @@
     "imgurl": "newjeans/new.jpg",
     "song": [
       "테스트"
-    ]
+    ],
+    "targetid": "awdjaknxklkm11"
   },
   {
     "artistname": "vaundy",
@@ -17,7 +18,8 @@
     "imgurl": "newjeans/omg.jpg",
     "song": [
       "테스트2"
-    ]
+    ],
+    "targetid": "awdjaknxklkm12"
   },
   {
     "artistname": "vaundy",
@@ -27,7 +29,8 @@
     "imgurl": "newjeans/omg.jpg",
     "song": [
       "테스트3"
-    ]
+    ],
+    "targetid": "awdjaknxklkm13"
   },
   {
     "artistname": "new jeans",
@@ -38,7 +41,8 @@
     "song": [
       "OMG",
       "Ditto"
-    ]
+    ],
+    "targetid": "awdjaknxklkm14"
   },
   {
     "artistname": "new jeans",
@@ -51,7 +55,8 @@
       "Hype boy",
       "Cookie",
       "Hurt"
-    ]
+    ],
+    "targetid": "awdjaknxklkm15"
   },
   {
     "artistname": "new jeans",
@@ -66,7 +71,8 @@
       "Cool With You",
       "Get up",
       "ASAP"
-    ]
+    ],
+    "targetid": "awdjaknxklkm16"
   },
   {
     "artistname": "new jeans",
@@ -76,7 +82,8 @@
     "imgurl": "newjeans/zero.jpg",
     "song": [
       "Zero"
-    ]
+    ],
+    "targetid": "awdjaknxklkm17"
   },
   {
     "artistname": "yoasobi",
@@ -89,7 +96,8 @@
       "Hype boy",
       "Cookie",
       "Hurt"
-    ]
+    ],
+    "targetid": "awdjaknxklkm18"
   },
   {
     "artistname": "yoasobi",
@@ -100,7 +108,8 @@
     "song": [
       "OMG",
       "Ditto"
-    ]
+    ],
+    "targetid": "awdjaknxklkm19"
   },
   {
     "artistname": "yoasobi",
@@ -110,7 +119,8 @@
     "imgurl": "/yoasobi/idol.jpg",
     "song": [
       "Zero"
-    ]
+    ],
+    "targetid": "awdjaknxklkm20"
   },
   {
     "artistname": "yoasobi",
@@ -121,7 +131,8 @@
     "song": [
       "New Jeans",
       "Super Shy"
-    ]
+    ],
+    "targetid": "awdjaknxklkm21"
   },
   {
     "artistname": "ed sheeran",
@@ -134,7 +145,8 @@
       "Hype boy",
       "Cookie",
       "Hurt"
-    ]
+    ],
+    "targetid": "awdjaknxklkm22"
   },
   {
     "artistname": "ed sheeran",
@@ -145,7 +157,8 @@
     "song": [
       "OMG",
       "Ditto"
-    ]
+    ],
+    "targetid": "awdjaknxklkm23"
   },
   {
     "artistname": "ed sheeran",
@@ -159,7 +172,8 @@
       "3",
       "4",
       "5"
-    ]
+    ],
+    "targetid": "awdjaknxklkm24"
   },
   {
     "artistname": "ed sheeran",
@@ -172,7 +186,8 @@
       "One",
       "Two",
       "Tree"
-    ]
+    ],
+    "targetid": "awdjaknxklkm25"
   },
   {
     "artistname": "aespa",
@@ -185,6 +200,7 @@
       "One",
       "Two",
       "Tree"
-    ]
+    ],
+    "targetid": "awdjaknxklkm26"
   }
 ]
