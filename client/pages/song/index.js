@@ -45,7 +45,7 @@ const SongIndex = () => {
             </div>
           </section>
           <section className={'all_artist'}>
-            <h2>전체 앨범</h2>
+            <h2>전체 노래</h2>
             {songList.map((i, idx) => <p key={idx}>{i.songname}</p>)}
           </section>
         </div>
