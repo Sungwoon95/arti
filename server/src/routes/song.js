@@ -12,7 +12,7 @@ const songRoute = [
     handler: (req, res) => {
       try {
         const song = readJSON('song')
-        res.send(song)
+        res.send(song.map((i, idx) => ({ ...i, songid: `awdklnn2kscc${idx}` })))
       } catch (error) {
         console.error('song:', error)
       }

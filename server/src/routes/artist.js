@@ -62,6 +62,26 @@ const artistRoute = [
     }
   }, {
     method: 'get',
+    route: '/randomartist',
+    handler: (req, res) => {
+      try {
+        const artist = readJSON('artist')
+        const artistArr = Object.values(artist)
+
+        const randomArtist = () => {
+          return artistArr[Math.floor(Math.random() * artistArr.length)]
+        }
+        const random = randomArtist()
+        if (random.length < 0) throw new Error('랜덤 아티스트가 존재하지 않습니다.')
+        console.log(random)
+        res.send(random)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+  }
+  , {
+    method: 'get',
     route: '/artist/:name?sort=like',
     handler: (req, res) => {
       res.send(req.query)
