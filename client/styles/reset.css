@@ -14,9 +14,9 @@ p{line-height: 24px;}
 li{list-style:none}
 time,span{line-height: 20px; display:block; font-size: 14px;}
 .active{color:#428aff !important; font-weight:bold;}
-h1,h2,h3{font-family: 'Happiness-Sans-Title';}
-h1{font-size: 36px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-h2{font-size: 28px; line-height: 32px; padding-bottom:16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+h1,h2,h3{font-family: 'Happiness-Sans-Title'; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+h1{font-size: 36px;  }
+h2{font-size: 28px; line-height: 32px; padding-bottom:16px;}
 h3{font-size: 20px;}
 .flex{display:flex; align-items: center;}
 .flex_base{display:flex; align-items: baseline;}
@@ -207,15 +207,25 @@ header ul{display:flex;}
 .center_img img{width:100%; height:100%; position: absolute; top:50%; left:50%; transform:translate(-50%,-50%); object-fit: cover;}
 
 /* b/register */
-.register_page{max-width: 720px; margin:0 auto;}
-.register_album_wrap{background-color: #ffffff; border:1px solid #cccccc; border-radius: 8px; padding:16px; box-sizing: border-box;}
-.register_album_wrap + .register_album_wrap{margin-top:24px;}
+.register_page{max-width: 720px; margin:0 auto; padding:0 16px; box-sizing: border-box;}
+.register_album_wrap{background-color: #ffffff; border:1px solid #cccccc; border-radius: 8px; padding:8px; box-sizing: border-box;}
+.register_album_wrap + .register_album_wrap{margin-top:12px;}
 /* .register_album_type
 .register_album_title
 .register_album_artist
 .register_album_date */
 
-.register_song_wrap{border:1px solid #dddddd; margin-top: 12px; padding:8px; box-sizing: border-box; border-radius: 8px;}
+.title_badge{width:50px;}
+.song_form{margin-top: 8px;}
+.register_song_wrap{margin-top: 12px; padding:8px 0; box-sizing: border-box;}
+.regiser_song_item{display:flex; flex-direction: column;}
+.regiser_song_item + .regiser_song_item{margin-top:8px;}
+.regiser_song_item label{font-size: 12px; color:#888888; line-height: 20px;}
+.regiser_song_item input{border: 0; border-bottom:1px solid #cccccc; font-size: 16px; line-height: 24px; outline:0;}
+.regiser_song_item input:focus{border-bottom:1px solid #456aff; transition: all ease 0.3s;}
+.regiser_song_item label:has(+ *:focus){ font-weight:bold;color:#456aff; transition:all ease 0.3s;}
+.register_song_btn{border:0; line-height: 24px; margin-top: 8px; background-color:transparent; height:24px; box-sizing: border-box; padding:0 8px; border-radius: 4px; border: 1px solid #adadff; color: #adadff;}
+.register_song_btn:hover{border: 1px solid #456aff; color: #456aff; transition: all ease 0.3s;}
 /* footer */
 footer{padding:24px 0; background-color: #030613;}
 .footer_wrap{max-width: 1200px; padding:0 16px; margin:0 auto; box-sizing: border-box;}
