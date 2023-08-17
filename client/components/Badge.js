@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Badge = ({ text, color }) => {
+const Badge = ({ text, color, cls }) => {
   return (
-    <div style={{ border: `1px solid ${color}`, color, fontSize: '12px', fontWeight: 'bold', borderRadius: '4px', height: '18px', padding: '0 4px', lineHeight: '20px' }}>
+    <span className={cls} style={{ border: `1px solid ${color}`, boxSizing: 'border-box', textAlign: 'center', color, fontSize: '12px', fontWeight: 'bold', borderRadius: '20px', height: '20px', padding: '0 4px', lineHeight: '20px', display: 'inline-block' }}>
       {text}
-    </div>
+    </span>
   )
 }
 
